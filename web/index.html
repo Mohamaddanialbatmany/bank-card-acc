@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="scaffolded-by" content="https://github.com/dart-lang/stagehand">
+  <title>bankCard</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="favicon.ico">
+  <script defer src="main.dart.js"></script>
+</head>
+
+<body>
+  <div class="container">
+    <form action="#" class="bankCard" id="bankCard">
+      <div class="firstGrid">
+        <div class="cardName">FullName: <div id="cardName"></div>
+        </div>
+        <div class="cardData">Data: <div id="cardData"></div>
+        </div>
+      </div>
+      <div class="secondGrid">
+        <div class="numFirst">XXXX</div>
+        <div class="numSecond">XXXX</div>
+        <div class="numThird">XXXX</div>
+        <div class="numFourth">XXXX</div>
+      </div>
+      <div class="thirdGrid">
+        <div class="cardCvv">CVV:<div id="cardCvv"></div>
+        </div>
+        <div class="cardCity">City: <div id="cardCity"></div>
+        </div>
+      </div>
+    </form>
+    <form action="#" class="register" id="register">
+      <div class="registerGridOne">
+        <input type="text" id="fullName" placeholder="Full Name">
+        <input type="text" id="data" placeholder="MM/DD/YY">
+      </div>
+      <div class="registerGridTow">
+        <input type="number" id="cvv" placeholder="CVV" disabled>
+        <input type="text" id="city" placeholder="los angeles">
+      </div>
+      <button id="submit">submit</button>
+    </form>
+  </div>
+</body>
+
+</html>

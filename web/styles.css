@@ -1,0 +1,155 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  height: 80%;
+  background-color: rgba(246, 246, 246, 0.808);
+  border-radius: 5px;
+  box-shadow: 5px 7px 6px rgba(109, 109, 109, 0.3);
+}
+
+.bankCard {
+  margin: 20px 0 50px 500px;
+  padding: 5px;
+  width: 500px;
+  height: 300px;
+  background-image: url(./IMG/117363221-double-exposure-of-row-of-coins-and-credit-card-with-graph-for-business-and-finance-background.jpg);
+  background-size: cover;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-size: medium;
+}
+
+.cardName {
+  margin: 3px;
+}
+
+div .cardData {
+  margin: 3px;
+}
+
+.numFirst,
+.numSecond,
+.numThird,
+.numFourth {}
+
+.cardCvv {
+  margin: 3px;
+}
+
+.cardCity {
+  margin: 3px;
+}
+
+form .firstGrid {
+  margin: 20px 10px 50px 10px;
+  display: grid;
+  grid-template-columns: 60% 40%;
+}
+
+form .secondGrid {
+  margin: 70px 0;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+form .thirdGrid {
+  margin-left: 25px;
+  display: grid;
+  grid-template-columns: 60% 40%;
+}
+
+.register {
+  position: absolute;
+  left: 32.5%;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+input {
+  border: none;
+  background: none;
+}
+
+div .registerGridOne>input {
+  text-align: center;
+  margin-bottom: 50px;
+  margin-left: 15px;
+  border-bottom: 1px solid black;
+  width: 250px;
+  height: 30px;
+  text-transform: uppercase;
+  transition: all 500ms;
+}
+
+div .registerGridOne>input:focus {
+  margin-bottom: 50px;
+  margin-left: 15px;
+  background-color: rgb(236, 236, 236);
+  border-bottom: 3px solid rgb(101, 158, 248);
+  border-radius: 5px;
+  width: 300px;
+  height: 30px;
+  text-transform: uppercase;
+  transition: all 500ms;
+}
+
+div .registerGridTow>input {
+  text-align: center;
+  margin-bottom: 50px;
+  margin-left: 15px;
+  border-bottom: 1px solid black;
+  width: 250px;
+  height: 30px;
+  text-transform: uppercase;
+  transition: all 500ms
+}
+
+div .registerGridTow>input:focus {
+  margin-bottom: 50px;
+  margin-left: 15px;
+  background-color: rgb(236, 236, 236);
+  border-bottom: 3px solid rgb(101, 158, 248);
+  border-radius: 5px;
+  width: 300px;
+  height: 30px;
+  text-transform: uppercase;
+  transition: all 500ms;
+}
+
+button{
+  border: none;
+  border-radius: 10px;
+  background: rgba(233, 233, 233, 0.575);
+  margin-top: 50px;
+  font-size: x-large;
+  width: 170px;
+  height: 50px;
+  transition: all 500ms;
+}
+
+button:hover {
+  border: 1px solid rgba(46, 46, 46, 0.678);
+  border-radius: 15px;
+  background: rgba(57, 255, 50, 0.589);
+  margin-top: 40px;
+  font-size: x-large;
+  width: 170px;
+  height: 50px;
+  box-shadow: 2px 6px 3px rgba(0, 0, 0, 0.2 ) ;
+  transition: all 700ms;
+}
